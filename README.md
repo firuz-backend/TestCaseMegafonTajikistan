@@ -89,10 +89,10 @@ All endpoints are prefixed with `/v1`.
 7. **Check payment status**: `GET /v1/payments/{payment_id}`.
 
 
+## ╔═════════════════════╗
+<h2 align="center">🇷🇺 <strong>RUSSIAN VERSION</strong> 🇷🇺</h2>
+## ╚═════════════════════╝
 
-
-
-RUSSIAN VERSION
 
 
 # Test Case - Megafon Tajikistan
