@@ -48,8 +48,8 @@ Apply existing migrations with:
 alembic upgrade head
 ```
 
-## Запуск
-1. Running the Services:
+## Running the Services
+1. Start the external mock services:
    ```bash
    uvicorn external_service_1.main:app --port 8001 --reload
    uvicorn external_service_2.main:app --port 8002 --reload
