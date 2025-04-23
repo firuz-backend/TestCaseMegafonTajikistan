@@ -4,7 +4,7 @@ from sqlalchemy.orm import DeclarativeBase
 
 
 async_engine = create_async_engine(
-    'Ставьте сюда пожалуйста адресс своей базы на postgresql',
+    'Вставьте адресс своей базы',
     echo=True)
 
 async_session_maker = async_sessionmaker(

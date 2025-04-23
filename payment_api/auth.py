@@ -18,7 +18,7 @@ from payment_api.backend.db_depends import get_db
 SECRET_KEY - вставьте пожалуйста свой SECRET_KEY, получив по команде
 openssl rand -hex 32
 """
-SECRET_KEY = 'Ставьте свой ключ'
+SECRET_KEY = 'Вставьте свой секретный ключ'
 ALGORITHM = 'HS256'
 
 router = APIRouter(prefix='/v1/auth', tags=['auth'])
