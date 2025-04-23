@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ## Конфигурация
 В файлах `payment_api/backend/db.py`,  `payment_api/auth.py` и `alembic.ini` замените заглушки:
 ```python
-# database.py
+# db.py
 async_engine = create_async_engine(
     'postgresql+asyncpg://user:password@localhost:5432/your_db',
     echo=True
