@@ -20,7 +20,7 @@ REST API для регистрации пользователей, управл�
 
 ## Установка
 ```bash
-git clone https://github.com/youruser/payment_project.git
+git clone https://github.com/firuz-backend/TestCaseMegafonTajikistan
 cd payment_project
 pip install -r requirements.txt
 ```
