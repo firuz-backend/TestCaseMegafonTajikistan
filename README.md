@@ -88,12 +88,7 @@ All endpoints are prefixed with `/v1`.
 6. **Initiate a payment**: `POST /v1/payments/`.  
 7. **Check payment status**: `GET /v1/payments/{payment_id}`.
 
-
-## ╔═════════════════════╗
 <h2 align="center">🇷🇺 <strong>RUSSIAN VERSION</strong> 🇷🇺</h2>
-## ╚═════════════════════╝
-
-
 
 # Test Case - Megafon Tajikistan
 This repository contains my solution for the Backend Developer test assignment in Python for Megafon Tajikistan.
