@@ -21,7 +21,7 @@ REST API для регистрации пользователей, управл�
 ## Установка
 ```bash
 git clone https://github.com/firuz-backend/TestCaseMegafonTajikistan
-cd payment_project
+cd TestCaseMegafonTajikistan
 pip install -r requirements.txt
 ```
 
