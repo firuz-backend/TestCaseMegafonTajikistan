@@ -1,6 +1,7 @@
-from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime
+
+from pydantic import BaseModel
 
 
 class PaymentCreate(BaseModel):
@@ -10,7 +11,7 @@ class PaymentCreate(BaseModel):
 class PaymentResponse(BaseModel):
     payment_id: int
     status: str
-    balance_after: Optional[float]
+    amount: Optional[float]
 
 
 class PaymentStatus(BaseModel):

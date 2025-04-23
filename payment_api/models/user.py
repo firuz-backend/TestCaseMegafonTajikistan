@@ -9,8 +9,6 @@ class User(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, unique=True, index=True, nullable=False)
-    first_name = Column(String)
-    last_name = Column(String)
     hashed_password = Column(String, nullable=False)
 
     wallet = relationship('Wallet', back_populates='owner', uselist=False)
